@@ -26,7 +26,7 @@ vim.opt.clipboard = 'unnamedplus'
 
 vim.opt.undofile = true
 
-vim.opt.ignorecase = true
+vim.opt.ignorecase = false
 vim.opt.smartcase = true
 
 vim.opt.signcolumn = 'yes'
