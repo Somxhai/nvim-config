@@ -4,4 +4,9 @@ require("conform").setup({
         timeout_ms = 500,
         lsp_fallback = true,
     },
+    formatters = {
+        biome = {
+            require_cwd = true,
+        },
+    }
 })
