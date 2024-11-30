@@ -17,7 +17,7 @@ lspconfig.lua_ls.setup(lsp.nvim_lua_ls())
 
 lspconfig.svelte.setup {
     filetypes = { "svelte" },
-    on_attach = function(client, _buffer)
+    on_attach = function(client, _)
         vim.api.nvim_create_autocmd("BufWritePost", {
             pattern = { "*.js", "*.ts", "*.svelte" },
             callback = function(ctx)
