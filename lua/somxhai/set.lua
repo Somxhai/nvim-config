@@ -40,3 +40,5 @@ vim.opt.completeopt = 'menuone,noselect'
 
 vim.opt.termguicolors = true
 vim.opt.colorcolumn = "80"
+
+vim.o.autoread = true
